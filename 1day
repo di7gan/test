@@ -15,3 +15,8 @@ python使用utf-8代码格式
 # 或 ''' 内容 '''
 
 python严格区分大小写 Print ≠ print
+
+python对于对齐非常看重
+print("hello world")
+ print("hello world")
+第二行此处会报错
