@@ -44,7 +44,7 @@ print("hello world")
   turtle.penup()#抬笔：移动过程不会产生任何痕迹
   trutle.pendown()#落笔：移动过程中会有路径痕迹
 
-  turtle.corcle(100)#画圆，当前位置向上画（不是以目前位置为中心画）
+  turtle.circle(100)#画圆，当前位置向上画（不是以目前位置为中心画）
 
   turtle.done()#结束绘图
   
@@ -83,6 +83,7 @@ print("hello world")
   turtle.pendown()
   turtle.circle(100)
   #end
+  turtle.done()
 
 
 
