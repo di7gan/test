@@ -1,0 +1,7 @@
+https://github.com/jackfrued/Python-100-Days/blob/master/Day01-15/01.初识Python.md
+单行注释 - 以#和空格开头的部分
+多行注释 - 三个引号开头，三个引号结尾
+print('hello', 'world', sep=', ', end='!')
+  其中sep=      代表在每个参数之间增加一个对应的符号
+print('goodbye, world', end='!\n')
+  其中end='!\n' 代表在末尾增加一个！  \n代表换行
