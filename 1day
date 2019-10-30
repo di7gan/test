@@ -20,3 +20,69 @@ python对于对齐非常看重
 print("hello world")
  print("hello world")
 第二行此处会报错
+
+错误
+  语法错误：比如缺少符号     SyntaxError: invalid character in identifier        
+  运行错误：5/0无限运行      ZeroDivisionError: division by zero                 
+  逻辑错误：
+  
+乱码：
+  import os
+  os.system("ipconfig")
+  设置（ctrl+alt+s） /   editor（编辑器） /  code style   /  file encodings（文本编码）/  IDE endcoding：utf-8  /   project endcoding：（中文是GBK）
+  
+绘图：
+  import turtle#加载绘图库
+  turtle.showturtle() #显示框架
+  turtle.write("hello python")#箭头位置输入文字hello python
+  turtle.forwrd(100)#箭头前进 100
+  turtle.right(90)#旋转 90度
+
+  turtle.color("yellow") #修改颜色 red
+  turtle.goto(0,0)#    0,0=屏幕正中间      右上角=x+,y+   右下角=x+,y-   左下角=x-,y-   左上角=x-,y+
+
+  turtle.penup()#抬笔：移动过程不会产生任何痕迹
+  trutle.pendown()#落笔：移动过程中会有路径痕迹
+
+  turtle.corcle(100)#画圆，当前位置向上画（不是以目前位置为中心画）
+
+  turtle.done()#结束绘图
+  
+奥运五环代码:
+  import turtle
+  turtle.showturtle()
+
+  #one
+  turtle.color("black")
+  turtle.penup()
+  turtle.goto(-200,0)#左边第一
+  turtle.pendown()
+  turtle.circle(100)
+  #two
+  turtle.color("red")
+  turtle.penup()
+  turtle.goto(0,0)
+  turtle.pendown()
+  turtle.circle(100)
+  #three
+  turtle.color("blue")
+  turtle.penup()
+  turtle.goto(200,0)
+  turtle.pendown()
+  turtle.circle(100)
+  #four
+  turtle.color("yellow")
+  turtle.penup()
+  turtle.goto(-100,-100)
+  turtle.pendown()
+  turtle.circle(100)
+  #five
+  turtle.color("green")
+  turtle.penup()
+  turtle.goto(100,-100)
+  turtle.pendown()
+  turtle.circle(100)
+  #end
+
+
+
